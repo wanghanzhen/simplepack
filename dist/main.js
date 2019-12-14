@@ -13,13 +13,13 @@
 function(module, exports, require) {
   "use strict";
 
-var _greeting = _interopRequireDefault(require("./greeting.js"));
+var _hello = _interopRequireDefault(require("./hello.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-document.write((0, _greeting["default"])());
+document.write((0, _hello["default"])());
 },
-'./greeting.js':
+'./hello.js':
 function(module, exports, require) {
   "use strict";
 
